@@ -1,0 +1,129 @@
+/* Set up global font styles */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+  }
+  
+  /* Apply styles to header and navigation */
+  header {
+	background-color: #f2f2f2;
+	padding: 1rem;
+  }
+  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-right: 1rem;
+  }
+  
+  nav a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  nav a:hover {
+	color: #666;
+  }
+  
+  /* Apply styles to intro section */
+  .intro {
+	background-image: linear-gradient(to bottom, #f2f2f2, #ddd);
+	padding: 4rem;
+	text-align: center;
+  }
+  
+  .intro h1 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+  }
+  
+  .intro p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+  }
+  
+  .intro .btn {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+  }
+  
+  .intro .btn:hover {
+	background-color: #666;
+  }
+  
+  /* Apply styles to services section */
+  .services {
+	padding: 4rem;
+	text-align: center;
+  }
+  
+  .services h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+  }
+  
+  .service {
+	display: inline-block;
+	padding: 1rem;
+	margin: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 1rem;
+  }
+  
+  .service:hover {
+	background-color: #f2f2f2;
+  }
+  
+  /* Add custom web fonts and appropriate font sizing */
+  @font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.ttf');
+  }
+  
+  @font-face {
+	font-family: 'Lato';
+	src: url('Lato-Regular.ttf');
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+  }
+  
+  p, li, a {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1rem;
+  }
+  
+  /* Demonstrate understanding of box model */
+  .container {
+	padding: 2rem;
+	margin: 0 auto;
+	max-width: 960px;
+  }
+  
+  /* Add creative element */
+  .intro .btn {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s ease;
+  }
+  
+  .intro .btn:hover {
+	transform: scale(1.1);
+  }
+  
+  
